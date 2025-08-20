@@ -1,0 +1,22 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# PyTorch (CPU, Python 3.13 compatible)
+torch==2.7.1+cpu
+torchvision==0.22.0+cpu
+
+# Core
+streamlit>=1.37
+numpy>=1.26
+pandas>=2.2
+Pillow>=10.0
+requests>=2.31
+
+# Vision / utils
+matplotlib>=3.8
+scikit-image>=0.22
+opencv-python-headless>=4.9
+
+# X-ray + GradCAM + env
+torchxrayvision>=1.1.7
+pytorch-grad-cam==1.5.1
+python-dotenv>=1.0
